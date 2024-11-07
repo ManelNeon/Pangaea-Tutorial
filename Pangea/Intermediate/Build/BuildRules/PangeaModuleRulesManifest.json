@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\GameDev\\UnrealProjects\\Pangaea-Tutorial\\Pangea\\Source\\Pangea\\Pangea.Build.cs",
+		"C:\\GameDev\\UnrealProjects\\Pangaea-Tutorial\\Pangea\\Source\\Pangea.Target.cs",
+		"C:\\GameDev\\UnrealProjects\\Pangaea-Tutorial\\Pangea\\Source\\PangeaEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

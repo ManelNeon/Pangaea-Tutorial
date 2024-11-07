@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\playeravataraniminstance.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\x64\\pangeaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pangea\\definitions.pangea.h",
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\source\\pangea\\playeravataraniminstance.h",
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\playeravataraniminstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

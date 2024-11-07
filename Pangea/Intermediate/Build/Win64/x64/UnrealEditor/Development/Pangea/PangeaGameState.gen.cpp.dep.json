@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\pangeagamestate.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\x64\\pangeaeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pangea\\definitions.pangea.h",
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\source\\pangea\\pangeagamestate.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\pangeagamestate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

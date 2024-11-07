@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Pangea.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Pangea.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PangeaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Pangea">
+      <UniqueIdentifier>{893B4037-064E-31A8-8D0B-459DB3EBA864}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Pangea\DefenseTower.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\DefenseTower.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Pangea\Pangea.Build.cs">
+      <Filter>Source\Pangea</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Pangea\Pangea.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\Pangea.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaCharacter.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaCharacter.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaGameInstance.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaGameInstance.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaGameMode.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaGameMode.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaGameState.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaGameState.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaPlayerController.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaPlayerController.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PlayerAvatar.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PlayerAvatar.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PlayerAvatarAnimInstance.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PlayerAvatarAnimInstance.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\Projectile.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\Projectile.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

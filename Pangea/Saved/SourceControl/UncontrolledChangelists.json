@@ -1,0 +1,47 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_DefenseTower.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_Projectile.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_PlayerAvatar.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Skeleton.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/matHero.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/T_CharA_COL.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/T_CharA_NOR.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Attack.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Attack_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Attack_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Die.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Die_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Die_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Hit.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Hit_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Hit_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Idle.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Idle_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Idle_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Run.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Run_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Run_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Walk.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Walk_Anim.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/Hero_Anim_Walk_PhysicsAsset.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/M_CharA_inst.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Maps/TopDownMap.umap",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/ABP_PlayerAvatar.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/HeroBlendSpace1D.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_GameModeTest.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset"
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Pangea",
+			"Path": "..\\Source\\Pangea.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PangeaEditor",
+			"Path": "..\\Source\\PangeaEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
