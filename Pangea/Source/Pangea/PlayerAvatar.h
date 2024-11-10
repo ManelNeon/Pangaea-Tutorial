@@ -60,6 +60,8 @@ public:
 
 	void Hit(int damage);
 
+	void DieProcess();
+
 	FORCEINLINE USpringArmComponent* GetSringArmComponent() const
 	{
 		return _springArmComponent;
@@ -69,10 +71,6 @@ public:
 	{
 		return _cameraComponent;
 	}
-
-protected:
-
-	void DieProcess();
 
 private:
 

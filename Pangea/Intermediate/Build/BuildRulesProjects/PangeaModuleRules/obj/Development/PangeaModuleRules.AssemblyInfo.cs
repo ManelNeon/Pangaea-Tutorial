@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PangeaModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c52ec205864d742aba839a49c86e083b2bd5102a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e677b4021d3cb6516ce5630dea953be4f828c2ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("PangeaModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PangeaModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

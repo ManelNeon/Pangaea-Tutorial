@@ -38,8 +38,12 @@
 				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/ABP_PlayerAvatar.uasset",
 				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/Characters/Hero/HeroBlendSpace1D.uasset",
 				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Input/Actions/IA.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Input/Actions/IA_Attack.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Input/IMC_Default.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/BP_WolfPack.uasset",
+				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/BP_Wolf.uasset",
 				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_GameModeTest.uasset",
-				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownPlayerController.uasset",
 				"C:/GameDev/UnrealProjects/Pangaea-Tutorial/Pangea/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset"
 			]
 		}

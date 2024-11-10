@@ -53,7 +53,14 @@ bool APlayerAvatar::IsKilled()
 
 bool APlayerAvatar::CanAttack() 
 {
-	return (_AttackCountingDown <= 0.0f);
+	UPlayerAvatarAnimInstance* animInst = Cast<UPlayerAvatarAnimInstance>(GetMesh()->GetAnimInstance());
+	
+	return (_AttackCountingDown <= 0.0f && animInst->State == EPlayerState::Locomotion);
+}
+
+void APlayerAvatar::Attack()
+{
+	_AttackCountingDown = AttackInterval;
 }
 
 // Called every frame
@@ -64,6 +71,15 @@ void APlayerAvatar::Tick(float DeltaTime)
 	UPlayerAvatarAnimInstance* animInstance = Cast<UPlayerAvatarAnimInstance>(GetMesh()->GetAnimInstance());
 
 	animInstance->speed = GetCharacterMovement()->Velocity.Size2D();
+
+	if (_AttackCountingDown == AttackInterval)
+	{
+		animInstance->State = EPlayerState::Attack;
+	}
+	if (_AttackCountingDown > 0.0f)
+	{
+		_AttackCountingDown -= DeltaTime;
+	}
 }
 
 // Called to bind functionality to input
@@ -71,5 +87,12 @@ void APlayerAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void APlayerAvatar::DieProcess()
+{
+	PrimaryActorTick.bCanEverTick = false;
+	Destroy();
+	GEngine->ForceGarbageCollection(true);
 }
 

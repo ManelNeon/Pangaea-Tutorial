@@ -11,6 +11,7 @@
 #include "InputActionValue.h"
 #include "EnhancedInputSubsystems.h"
 #include "Engine/LocalPlayer.h"
+#include "PlayerAvatar.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -20,6 +21,7 @@ APangeaPlayerController::APangeaPlayerController()
 	DefaultMouseCursor = EMouseCursor::Default;
 	CachedDestination = FVector::ZeroVector;
 	FollowTime = 0.f;
+	EnableInput(this);
 }
 
 void APangeaPlayerController::BeginPlay()
@@ -48,6 +50,8 @@ void APangeaPlayerController::SetupInputComponent()
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Completed, this, &APangeaPlayerController::OnSetDestinationReleased);
 		EnhancedInputComponent->BindAction(SetDestinationClickAction, ETriggerEvent::Canceled, this, &APangeaPlayerController::OnSetDestinationReleased);
 
+		EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &APangeaPlayerController::OnAttackPressed);
+		
 		// Setup touch input events
 		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Started, this, &APangeaPlayerController::OnInputStarted);
 		EnhancedInputComponent->BindAction(SetDestinationTouchAction, ETriggerEvent::Triggered, this, &APangeaPlayerController::OnTouchTriggered);
@@ -122,4 +126,13 @@ void APangeaPlayerController::OnTouchReleased()
 {
 	bIsTouch = false;
 	OnSetDestinationReleased();
+}
+
+void APangeaPlayerController::OnAttackPressed()
+{	
+	auto playerAvatar = Cast<APlayerAvatar>(GetPawn());
+	if (playerAvatar->CanAttack())
+	{
+		playerAvatar->Attack();
+	}
 }
