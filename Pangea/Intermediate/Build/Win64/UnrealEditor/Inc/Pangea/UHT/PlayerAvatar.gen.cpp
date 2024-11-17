@@ -118,6 +118,7 @@ struct Z_Construct_UFunction_APlayerAvatar_IsKilled_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Pangea|PlayerCharacter" },
+		{ "DisplayName", "He Dead" },
 		{ "ModuleRelativePath", "PlayerAvatar.h" },
 	};
 #endif // WITH_METADATA
@@ -226,7 +227,7 @@ struct Z_Construct_UClass_APlayerAvatar_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_APlayerAvatar_CanAttack, "CanAttack" }, // 2777845983
 		{ &Z_Construct_UFunction_APlayerAvatar_GetHealthPoints, "GetHealthPoints" }, // 3548948840
-		{ &Z_Construct_UFunction_APlayerAvatar_IsKilled, "IsKilled" }, // 3991490117
+		{ &Z_Construct_UFunction_APlayerAvatar_IsKilled, "IsKilled" }, // 56398392
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -291,10 +292,10 @@ APlayerAvatar::~APlayerAvatar() {}
 struct Z_CompiledInDeferFile_FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PlayerAvatar_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerAvatar, APlayerAvatar::StaticClass, TEXT("APlayerAvatar"), &Z_Registration_Info_UClass_APlayerAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerAvatar), 1399799686U) },
+		{ Z_Construct_UClass_APlayerAvatar, APlayerAvatar::StaticClass, TEXT("APlayerAvatar"), &Z_Registration_Info_UClass_APlayerAvatar, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerAvatar), 3867357983U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PlayerAvatar_h_672187543(TEXT("/Script/Pangea"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PlayerAvatar_h_2263654612(TEXT("/Script/Pangea"),
 	Z_CompiledInDeferFile_FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PlayerAvatar_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PlayerAvatar_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

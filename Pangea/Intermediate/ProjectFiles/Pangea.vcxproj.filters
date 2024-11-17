@@ -39,6 +39,24 @@
     <ClInclude Include="..\..\Source\Pangea\DefenseTower.h">
       <Filter>Source\Pangea</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\Enemy.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\Enemy.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\EnemyAnimInstance.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\EnemyAnimInstance.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\EnemyController.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\EnemyController.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Pangea\Pangea.Build.cs">
       <Filter>Source\Pangea</Filter>
     </None>
@@ -94,6 +112,12 @@
       <Filter>Source\Pangea</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Pangea\Projectile.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\Weapon.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\Weapon.h">
       <Filter>Source\Pangea</Filter>
     </ClInclude>
   </ItemGroup>

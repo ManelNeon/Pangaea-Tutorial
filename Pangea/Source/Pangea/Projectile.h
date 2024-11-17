@@ -26,6 +26,11 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Projectile Params")
 	float Damage = 10.0f;
 
+private:
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Tower Component", meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* _MeshComponent;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

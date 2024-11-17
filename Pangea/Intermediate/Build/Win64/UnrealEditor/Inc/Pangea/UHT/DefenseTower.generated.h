@@ -9,12 +9,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef PANGEA_DefenseTower_generated_h
 #error "DefenseTower.generated.h already included, missing '#pragma once' in DefenseTower.h"
 #endif
 #define PANGEA_DefenseTower_generated_h
 
 #define FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_DefenseTower_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnMeshBeginOverlap); \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnBeginOverlap); \
 	DECLARE_FUNCTION(execCanFire); \
 	DECLARE_FUNCTION(execIsDestroyed); \
 	DECLARE_FUNCTION(execGetHealthPoints);

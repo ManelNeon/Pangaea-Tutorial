@@ -58,9 +58,19 @@ bool APlayerAvatar::CanAttack()
 	return (_AttackCountingDown <= 0.0f && animInst->State == EPlayerState::Locomotion);
 }
 
+bool APlayerAvatar::IsAttacking()
+{
+	return true;
+}
+
 void APlayerAvatar::Attack()
 {
 	_AttackCountingDown = AttackInterval;
+}
+
+void APlayerAvatar::Hit(int Damage)
+{
+
 }
 
 // Called every frame

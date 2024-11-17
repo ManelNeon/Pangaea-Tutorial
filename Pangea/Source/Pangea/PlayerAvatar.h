@@ -50,11 +50,13 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Pangea|PlayerCharacter", meta = (DisplayName = "GetHP"))
 	int GetHealthPoints();
 
-	UFUNCTION(BlueprintCallable, Category = "Pangea|PlayerCharacter")
+	UFUNCTION(BlueprintCallable, Category = "Pangea|PlayerCharacter", meta = (DisplayName = "He Dead"))
 	bool IsKilled();
 
 	UFUNCTION(BlueprintCallable, Category = "Pangea|PlayerCharacter")
 	bool CanAttack();
+
+	bool IsAttacking();
 
 	void Attack();
 

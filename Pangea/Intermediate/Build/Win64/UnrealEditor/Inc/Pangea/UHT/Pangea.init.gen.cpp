@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodePangea_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC1AEE69A,
-				0xAB07C354,
+				0xE0338B72,
+				0x4D1139EC,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Pangea.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Pangea.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Pangea(Z_Construct_UPackage__Script_Pangea, TEXT("/Script/Pangea"), Z_Registration_Info_UPackage__Script_Pangea, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC1AEE69A, 0xAB07C354));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Pangea(Z_Construct_UPackage__Script_Pangea, TEXT("/Script/Pangea"), Z_Registration_Info_UPackage__Script_Pangea, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE0338B72, 0x4D1139EC));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
