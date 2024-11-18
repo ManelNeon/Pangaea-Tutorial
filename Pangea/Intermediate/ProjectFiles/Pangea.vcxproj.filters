@@ -45,12 +45,6 @@
     <ClInclude Include="..\..\Source\Pangea\Enemy.h">
       <Filter>Source\Pangea</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Pangea\EnemyAnimInstance.cpp">
-      <Filter>Source\Pangea</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Pangea\EnemyAnimInstance.h">
-      <Filter>Source\Pangea</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Pangea\EnemyController.cpp">
       <Filter>Source\Pangea</Filter>
     </ClCompile>
@@ -64,6 +58,12 @@
       <Filter>Source\Pangea</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Pangea\Pangea.h">
+      <Filter>Source\Pangea</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Pangea\PangeaAnimInstance.cpp">
+      <Filter>Source\Pangea</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Pangea\PangeaAnimInstance.h">
       <Filter>Source\Pangea</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Pangea\PangeaCharacter.cpp">
@@ -100,12 +100,6 @@
       <Filter>Source\Pangea</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Pangea\PlayerAvatar.h">
-      <Filter>Source\Pangea</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Pangea\PlayerAvatarAnimInstance.cpp">
-      <Filter>Source\Pangea</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Pangea\PlayerAvatarAnimInstance.h">
       <Filter>Source\Pangea</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Pangea\Projectile.cpp">

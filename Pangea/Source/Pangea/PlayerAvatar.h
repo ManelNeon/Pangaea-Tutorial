@@ -7,10 +7,11 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "PangeaCharacter.h"
 #include "PlayerAvatar.generated.h"
 
 UCLASS(Blueprintable)
-class PANGEA_API APlayerAvatar : public ACharacter
+class PANGEA_API APlayerAvatar : public APangeaCharacter
 {
 	GENERATED_BODY()
 

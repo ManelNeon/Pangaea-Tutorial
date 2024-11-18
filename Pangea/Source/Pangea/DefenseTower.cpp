@@ -112,6 +112,9 @@ void ADefenseTower::OnMeshBeginOverlap(AActor* OtherActor)
 	}
 
 	APlayerAvatar* character = Cast<APlayerAvatar>(weapon->Holder);
+
+	if (!character) return;
+
 	if (character->IsA(APlayerAvatar::StaticClass()) && character->IsAttacking() && weapon->IsWithinAttackRange(character->AttackRange, this) && CanBeDamaged())
 	{
 		Hit(weapon->Strength);

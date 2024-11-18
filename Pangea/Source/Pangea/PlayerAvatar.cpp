@@ -2,7 +2,7 @@
 
 
 #include "PlayerAvatar.h"
-#include "PlayerAvatarAnimInstance.h"
+#include "PangeaAnimInstance.h"
 
 // Sets default values
 APlayerAvatar::APlayerAvatar()
@@ -53,9 +53,9 @@ bool APlayerAvatar::IsKilled()
 
 bool APlayerAvatar::CanAttack() 
 {
-	UPlayerAvatarAnimInstance* animInst = Cast<UPlayerAvatarAnimInstance>(GetMesh()->GetAnimInstance());
+	UPangeaAnimInstance* animInst = Cast<UPangeaAnimInstance>(GetMesh()->GetAnimInstance());
 	
-	return (_AttackCountingDown <= 0.0f && animInst->State == EPlayerState::Locomotion);
+	return (_AttackCountingDown <= 0.0f && animInst->State == ECharacterState::Locomotion);
 }
 
 bool APlayerAvatar::IsAttacking()
@@ -78,13 +78,13 @@ void APlayerAvatar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UPlayerAvatarAnimInstance* animInstance = Cast<UPlayerAvatarAnimInstance>(GetMesh()->GetAnimInstance());
+	UPangeaAnimInstance* animInstance = Cast<UPangeaAnimInstance>(GetMesh()->GetAnimInstance());
 
-	animInstance->speed = GetCharacterMovement()->Velocity.Size2D();
+	animInstance->Speed = GetCharacterMovement()->Velocity.Size2D();
 
 	if (_AttackCountingDown == AttackInterval)
 	{
-		animInstance->State = EPlayerState::Attack;
+		animInstance->State = ECharacterState::Attack;
 	}
 	if (_AttackCountingDown > 0.0f)
 	{

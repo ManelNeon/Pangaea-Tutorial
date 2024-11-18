@@ -842,7 +842,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponentasync.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementcomponent.generated.h",
             "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\playeravatar.generated.h",
-            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\source\\pangea\\playeravataraniminstance.h",
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\source\\pangea\\pangeaaniminstance.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animinstance.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\animation\\animsubsysteminstance.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animsubsysteminstance.generated.h",
@@ -850,7 +850,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\animation\\animnotifies\\animnotify.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animnotify.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\animinstance.generated.h",
-            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\playeravataraniminstance.generated.h"
+            "c:\\gamedev\\unrealprojects\\pangaea-tutorial\\pangea\\intermediate\\build\\win64\\unrealeditor\\inc\\pangea\\uht\\pangeaaniminstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

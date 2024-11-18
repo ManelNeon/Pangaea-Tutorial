@@ -5,10 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Weapon.h"
+#include "PangeaCharacter.h"
 #include "Enemy.generated.h"
 
 UCLASS()
-class PANGEA_API AEnemy : public ACharacter
+class PANGEA_API AEnemy : public APangeaCharacter
 {
 	GENERATED_BODY()
 

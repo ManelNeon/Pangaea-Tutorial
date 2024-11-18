@@ -2,7 +2,7 @@
 
 
 #include "Enemy.h"
-#include "EnemyAnimInstance.h"
+#include "PangeaAnimInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EnemyController.h"
 #include "Perception/PawnSensingComponent.h"
@@ -39,19 +39,19 @@ void AEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	auto animInst = Cast<UEnemyAnimInstance>(GetMesh()->GetAnimInstance());
+	auto animInst = Cast<UPangeaAnimInstance>(GetMesh()->GetAnimInstance());
 
-	animInst->speed = GetCharacterMovement()->Velocity.Size2D();
+	animInst->Speed = GetCharacterMovement()->Velocity.Size2D();
 
 	if (_AttackCountingDown == AttackInterval)
 	{
-		animInst->State = EEnemyState::Attack;
+		animInst->State = ECharacterState::Attack;
 	}
 
 	if (_AttackCountingDown > 0.0f)
 		_AttackCountingDown -= DeltaTime;
 
-	if (_chasedTarget != nullptr && animInst->State == EEnemyState::Locomotion)
+	if (_chasedTarget != nullptr && animInst->State == ECharacterState::Locomotion)
 	{
 		auto enemyController = Cast<AEnemyController>(GetController());
 		enemyController->MakeAttackDecision(_chasedTarget);
@@ -71,8 +71,8 @@ bool AEnemy::IsKilled()
 bool AEnemy::CanAttack()
 {
 	auto animInst = GetMesh()->GetAnimInstance();
-	auto enemyAnimInst = Cast<UEnemyAnimInstance>(animInst);
-	return(_AttackCountingDown <= 0.0f && enemyAnimInst->State == EEnemyState::Locomotion);
+	auto enemyAnimInst = Cast<UPangeaAnimInstance>(animInst);
+	return(_AttackCountingDown <= 0.0f && enemyAnimInst->State == ECharacterState::Locomotion);
 }
 
 void AEnemy::Chase(APawn* targetPawn)
@@ -80,9 +80,9 @@ void AEnemy::Chase(APawn* targetPawn)
 	if (!targetPawn) return;
 
 	auto animInst = GetMesh()->GetAnimInstance();
-	auto enemyAnimInst = Cast<UEnemyAnimInstance>(animInst);
+	auto enemyAnimInst = Cast<UPangeaAnimInstance>(animInst);
 
-	if (targetPawn != nullptr && enemyAnimInst->State == EEnemyState::Locomotion)
+	if (targetPawn != nullptr && enemyAnimInst->State == ECharacterState::Locomotion)
 	{
 		auto enemyController = Cast<AEnemyController>(GetController());
 		enemyController->MoveToActor(targetPawn, 90.0f);
@@ -109,9 +109,9 @@ void AEnemy::Hit(int damage)
 	_HealthPoints -= damage;
 
 	auto animInst = GetMesh()->GetAnimInstance();
-	auto enemyAnimInst = Cast<UEnemyAnimInstance>(animInst);
+	auto enemyAnimInst = Cast<UPangeaAnimInstance>(animInst);
 
-	enemyAnimInst->State = EEnemyState::Hit;
+	enemyAnimInst->State = ECharacterState::Hit;
 
 	if (IsKilled())
 	{

@@ -14,6 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PANGEA_PangeaCharacter_generated_h
 
+#define FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execCanAttack); \
+	DECLARE_FUNCTION(execIsKilled); \
+	DECLARE_FUNCTION(execGetHealthPoints);
+
+
 #define FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPangeaCharacter(); \
@@ -39,6 +45,7 @@ public: \
 #define FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	FID_GameDev_UnrealProjects_Pangaea_Tutorial_Pangea_Source_Pangea_PangeaCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
